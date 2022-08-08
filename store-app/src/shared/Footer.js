@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './Footer.module.css'
 import instagram from '../assets/icons/instagram.svg';
 import github from '../assets/icons/github.svg';
-import twitter from '../assets/icons/twitter.svg'
+import telegram from '../assets/icons/telegram.svg'
 import linkedin from '../assets/icons/linkedin.svg'
 const Footer = () => {
     return (
@@ -12,16 +12,16 @@ const Footer = () => {
         <p> &copy; All Rights Reserve 2022</p>
         <div className={styles.icons}>
             
-            <a href='#' className={`${styles.icon} ${styles.iconinstagram}`}>
+            <a href='https://www.instagram.com/elahe_soltani78/' className={`${styles.icon} ${styles.iconinstagram}`}>
             <img src={instagram} />
             </a>
-            <a href='#' className={`${styles.icon} ${styles.iconTwitter}`}>
-            <img src={twitter} alt="twitter"/> 
+            <a href='https://t.me/Elahe_soltani78' className={`${styles.icon} ${styles.iconTelegram}`}>
+            <img src={telegram} alt="telegram"/> 
             </a>
-            <a href='#' className={`${styles.icon} ${styles.iconGithub}`}>
+            <a href='https://github.com/elahe-soltani/' className={`${styles.icon} ${styles.iconGithub}`}>
             <img src={github} alt="github"/>
             </a>
-            <a href='#' className={`${styles.icon} ${styles.iconLinkedin}`}>
+            <a href='https://www.linkedin.com/in/elahe-soltani-71259a247' className={`${styles.icon} ${styles.iconLinkedin}`}>
             <img src={linkedin} alt="linkedin"/>
             </a>
         </div>

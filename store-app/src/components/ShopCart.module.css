@@ -35,7 +35,7 @@
     padding: 7px 16px;
     border: none;
     border-radius: 5px;
-    color: #FFF;
+    color: #1f1f1f;
     cursor: pointer;
     font-weight: bold;
     transition: all 0.2s ease;
@@ -67,7 +67,7 @@
     background-color: #FEDE00;
     display: inline-block;
     text-decoration: none;
-    color:#FFFF;
+    color:#1f1f1f;
     height: 30px;
     width: 90px;
     border-radius: 5px;
